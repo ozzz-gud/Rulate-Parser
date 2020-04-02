@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "RulatePhaser": {
+      "commandName": "Project",
+      "commandLineArgs": "parse -o test.json --firstPage 1 --lastPage 326",
+      "workingDirectory": "C:\\Users\\Vasiliy\\Downloads"
+    }
+  }
+}

@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllTitlesOnPage" xml:space="preserve">
+    <value>div.row &gt; div.span8 &gt; ul &gt; li &gt; p &gt; a</value>
+    <comment>Catalog CssSelector</comment>
+  </data>
+  <data name="AnotherTitleNamesX" xml:space="preserve">
+    <value>//div[@id='Info']/p/strong[contains(text(),"название")]/../em</value>
+    <comment>Title Xpath ДругиеНазвания OK</comment>
+  </data>
+  <data name="AuthorX" xml:space="preserve">
+    <value>//div[@id='Info']/p/strong[contains(text(),"Автор")]/../em/a</value>
+    <comment>Title Xpath Автор OK</comment>
+  </data>
+  <data name="AverageChapterSizeX" xml:space="preserve">
+    <value>//div[@class='tools']/h5/../dl/dt[contains(text(), 'Средний')]/following-sibling::dd[1]</value>
+    <comment>Title Xpath СреднийРазмерГлав OK</comment>
+  </data>
+  <data name="BaseChapterPriceX" xml:space="preserve">
+    <value>//div[@class='tools']/h5/../dl/dt[contains(text(), 'главу')]/following-sibling::dd[1]</value>
+    <comment>Title Xpath ЦенаГлавы OK</comment>
+  </data>
+  <data name="ChaptersPrice" xml:space="preserve">
+    <value>tbody td input[data-price]</value>
+    <comment>Title CssSelector ToCountAndGetPrice OK</comment>
+  </data>
+  <data name="CountLikes" xml:space="preserve">
+    <value>#liker &gt; span</value>
+    <comment>Title CssSelector КоличествоЛайков OK</comment>
+  </data>
+  <data name="CountPeoplesVoicesX" xml:space="preserve">
+    <value>//div[@class='tools']/h5[contains(text(),"Оценки")]/../dl/div/span/span/span</value>
+    <comment>Title Xpath ОценкиКоличество OK</comment>
+  </data>
+  <data name="DescriptionAfterThisX" xml:space="preserve">
+    <value>//div[@id='Info']/div[@class='btn-toolbar']</value>
+    <comment>Title Xpath ForGetDescription OK</comment>
+  </data>
+  <data name="GenresX" xml:space="preserve">
+    <value>//div[@class='tools']/h5/../dl/dt[contains(text(), 'Жанры')]/following-sibling::dd[1]</value>
+    <comment>Title Xpath Жанры OK</comment>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>div#Info &gt; div.images &gt; div.slick &gt; div &gt; img</value>
+    <comment>Title CssSelector Обложки OK</comment>
+  </data>
+  <data name="IsPageBlokedByAgeX" xml:space="preserve">
+    <value>//div[@class='errorpage']/p[contains(text(), "для лиц старше 18")]</value>
+    <comment>FirstPage Xpath Для открытия нужно подтвердить возраст</comment>
+  </data>
+  <data name="KeyPeopleVoicesX" xml:space="preserve">
+    <value>//div[@class='tools']/h5[contains(text(),"Оценки")]/../dl/div/span[last()]</value>
+    <comment>Title Xpath ОценкиКлючи OK</comment>
+  </data>
+  <data name="LinksX" xml:space="preserve">
+    <value>//div[@class='tools']/h5[contains(text(),"Ссылки")]/../dd/ul/li/a</value>
+    <comment>Title Xpath Ссылки OK</comment>
+  </data>
+  <data name="ProxyString" xml:space="preserve">
+    <value>/site/proxy?l=</value>
+    <comment>String FroReplace</comment>
+  </data>
+  <data name="PublisherX" xml:space="preserve">
+    <value>//div[@id='Info']/p/strong[contains(text(),"Издательство")]/../em/a</value>
+    <comment>Title Xpath Издатель OK</comment>
+  </data>
+  <data name="PublishStatusX" xml:space="preserve">
+    <value>//div[@id='Info']/p/strong[contains(text(),"Выпуск")]/../em</value>
+    <comment>Title Xpath СтатусПубликации OK</comment>
+  </data>
+  <data name="PublishYearX" xml:space="preserve">
+    <value>//div[@id='Info']/p/strong[contains(text(),"Год")]/../em</value>
+    <comment>Title Xpath ГодПубликации OK</comment>
+  </data>
+  <data name="RateOfTitleX" xml:space="preserve">
+    <value>//div[@id="Info"]/table/tbody/tr/td/strong[contains(text(),"Произведение:")]/../../td[last()]/div/text()[6]</value>
+    <comment>Title Xpath РейтингПроизведения OK</comment>
+  </data>
+  <data name="RateOfTranslateX" xml:space="preserve">
+    <value>//div[@id="Info"]/table/tbody/tr/td/strong[contains(text(),"перевода:")]/../../td[last()]/div/text()[6]</value>
+    <comment>Title Xpath РейтингПеревода OK</comment>
+  </data>
+  <data name="RateOfVoicesX" xml:space="preserve">
+    <value>//div[@id="Info"]/table/tbody/tr/td/strong[contains(text(),"озвучки:")]/../../td[last()]/div/text()[6]</value>
+    <comment>Title Xpath РейтингОзвучки OK</comment>
+  </data>
+  <data name="TagsX" xml:space="preserve">
+    <value>//div[@class='tools']/h5/../dl/dt[contains(text(), 'Тэги')]/following-sibling::dd[1]</value>
+    <comment>Title Xpath Тэги OK</comment>
+  </data>
+  <data name="TeamX" xml:space="preserve">
+    <value>//div[@id='Info']/p/strong[contains(text(),"Группа")]/../em/a</value>
+    <comment>Title Xpath ГруппаПереводчиов OK</comment>
+  </data>
+  <data name="TitleIsFor18X" xml:space="preserve">
+    <value>//div[@id='Info']/p/strong[contains(text(),"18+")]</value>
+    <comment>Title Xpath ВозрастноеОграничение OK</comment>
+  </data>
+  <data name="TitleName" xml:space="preserve">
+    <value>div.span8 &gt; h1</value>
+    <comment>Title CssSelector НазваниеТайтла OK</comment>
+  </data>
+  <data name="TitleUrl" xml:space="preserve">
+    <value>div.row &gt; div.span8 &gt; ul &gt; li.active &gt; a</value>
+    <comment>Title CssSelector UrlВыбраннойКниги OK</comment>
+  </data>
+  <data name="TranslateSizeX" xml:space="preserve">
+    <value>//div[@class='tools']/h5/../dl/dt[contains(text(), 'Размер')]/following-sibling::dd[1]</value>
+    <comment>Title Xpath РазмерПеревода OK</comment>
+  </data>
+  <data name="TranslateStatusX" xml:space="preserve">
+    <value>//div[@class='tools']/h5/../dl/dt[contains(text(), 'Состояние')]/following-sibling::dd[1]/span</value>
+    <comment>Title Xpath СтатусПеревода OK</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>#Info &gt; p.cat</value>
+    <comment>Title CssSelector ТипТайтла OK</comment>
+  </data>
+</root>
